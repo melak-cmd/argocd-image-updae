@@ -9,7 +9,7 @@ spec:
   project: argocd
   source:
     path: deployments/argocd/argocd-image-updater/
-    repoURL: https://github.com/spoukke/kubernetes-cluster-state.git
+    repoURL: https://github.com/melak-cmd/xargocd-gitops.git
     targetRevision: master
   syncPolicy:
     automated:

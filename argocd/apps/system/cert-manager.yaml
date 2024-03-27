@@ -15,7 +15,7 @@ spec:
   project: system
   source:
     path: deployments/system/cert-manager
-    repoURL: https://github.com/spoukke/kubernetes-cluster-state.git
+    repoURL: https://github.com/melak-cmd/xargocd-gitops.git
     targetRevision: master
     helm:
       valueFiles:

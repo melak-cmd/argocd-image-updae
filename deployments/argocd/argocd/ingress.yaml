@@ -18,4 +18,4 @@ spec:
             port: 
               name: http
         pathType: ImplementationSpecific
-    host: argocd.spoukke.io
+    host: argocd.127.0.0.1.nip.io
