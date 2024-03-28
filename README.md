@@ -13,7 +13,7 @@ curl -s https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash
 ### Step 2: Create a k3d Cluster
 
 ```bash
-k3d cluster create mycluster
+../cluster/install.sh
 ```
 
 ### Step 3: Verify Cluster Creation
